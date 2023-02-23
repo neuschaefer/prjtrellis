@@ -29,6 +29,8 @@ RoutingGraph::RoutingGraph(const Chip &c) : chip_name(c.info.name), chip_family(
     else if (chip_name.find("1200HC") != string::npos)
         // FIXME: Prefix to distinguish XO, XO2, and XO3?
         chip_prefix = "1200_";
+    else if (chip_name.find("7000HC") != string::npos)
+        chip_prefix = "7000_";
     else
         assert(false);
 
