@@ -128,7 +128,7 @@
     "MachXO2" : {
         "devices" : {
             "LCMXO2-256HC": {
-                "packages": ["QFN32"],
+                "packages": ["CSBGA132", "TQFP100", "UCBGA64", "QFN32", "QFN48"],
                 "idcode": "0x012b8043",
                 "frames": 186,
                 "bits_per_frame": 504,
@@ -140,7 +140,7 @@
                 "fuzz": 1
             },
             "LCMXO2-256ZE": {
-                "packages": ["QFN32"],
+                "packages": ["CSBGA132", "TQFP100", "UCBGA64", "QFN32", "QFN48"],
                 "idcode": "0x012b0043",
                 "frames": 186,
                 "bits_per_frame": 504,
@@ -152,7 +152,7 @@
                 "fuzz": 1
             },
             "LCMXO2-640HC": {
-                "packages": ["QFN48"],
+                "packages": ["CSBGA132", "TQFP100", "QFN48"],
                 "idcode": "0x012b9043",
                 "frames": 211,
                 "bits_per_frame": 888,
@@ -164,7 +164,7 @@
                 "fuzz": 1
             },
             "LCMXO2-640ZE": {
-                "packages": ["QFN48"],
+                "packages": ["CSBGA132", "TQFP100", "QFN48"],
                 "idcode": "0x012b1043",
                 "frames": 211,
                 "bits_per_frame": 888,
@@ -176,7 +176,7 @@
                 "fuzz": 1
             },
             "LCMXO2-1200HC": {
-                "packages": ["QFN32"],
+                "packages": ["TQFP144", "CSBGA132", "TQFP100", "WLCSP25", "QFN32"],
                 "idcode": "0x012ba043",
                 "frames": 333,
                 "bits_per_frame": 1080,
@@ -188,7 +188,7 @@
                 "fuzz": 1
             },
             "LCMXO2-1200ZE": {
-                "packages": ["QFN32"],
+                "packages": ["TQFP144", "CSBGA132", "TQFP100", "WLCSP25", "QFN32"],
                 "idcode": "0x012b2043",
                 "frames": 333,
                 "bits_per_frame": 1080,
@@ -200,7 +200,7 @@
                 "fuzz": 1
             },
             "LCMXO2-2000HC": {
-                "packages": ["TQFP100"],
+                "packages": ["FTBGA256", "CABGA256", "TQFP144", "CSBGA132", "TQFP100", "WLCSP49"],
                 "idcode": "0x012bb043",
                 "frames": 420,
                 "bits_per_frame": 1272,
@@ -212,7 +212,7 @@
                 "fuzz": 1
             },
             "LCMXO2-2000ZE": {
-                "packages": ["TQFP100"],
+                "packages": ["FTBGA256", "CABGA256", "TQFP144", "CSBGA132", "TQFP100", "WLCSP49"],
                 "idcode": "0x012b3043",
                 "frames": 420,
                 "bits_per_frame": 1272,
@@ -224,7 +224,7 @@
                 "fuzz": 1
             },
             "LCMXO2-4000HC": {
-                "packages": ["TQFP144"],
+                "packages": ["FPBGA484", "CABGA332", "FTBGA256", "CABGA256", "TQFP144", "CSBGA132", "CSBGA184", "QFN84"],
                 "idcode": "0x012bc043",
                 "frames": 623,
                 "bits_per_frame": 1560,
@@ -236,7 +236,7 @@
                 "fuzz": 1
             },
             "LCMXO2-4000ZE": {
-                "packages": ["TQFP144"],
+                "packages": ["FPBGA484", "CABGA332", "FTBGA256", "CABGA256", "TQFP144", "CSBGA132", "CSBGA184", "QFN84"],
                 "idcode": "0x012b4043",
                 "frames": 623,
                 "bits_per_frame": 1560,
@@ -248,7 +248,7 @@
                 "fuzz": 1
             },
             "LCMXO2-7000HC": {
-                "packages": ["TQFP144"],
+                "packages": ["FPBGA484", "CABGA332", "FTBGA256", "CABGA256", "TQFP144"],
                 "idcode": "0x012bd043",
                 "frames": 770,
                 "bits_per_frame": 1992,
@@ -260,7 +260,7 @@
                 "fuzz": 1
             },
             "LCMXO2-7000ZE": {
-                "packages": ["TQFP144"],
+                "packages": ["FPBGA484", "CABGA332", "FTBGA256", "CABGA256", "TQFP144"],
                 "idcode": "0x012b5043",
                 "frames": 770,
                 "bits_per_frame": 1992,
