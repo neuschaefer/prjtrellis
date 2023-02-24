@@ -1,5 +1,7 @@
-# Pastebin J2L5zfiT
 #!/usr/bin/env python3
+# Script to convert a pinout CSV files to iodb.json. Pinout CSV files can be
+# found at https://www.latticesemi.com/Products/FPGAandCPLD/MachXO2
+
 import sys
 import json
 import argparse
