@@ -2,7 +2,7 @@ Tiles
 =================
 
 The ECP5 FPGA is structured as a grid of tiles. This grid can be visualised
-by looking at the HTML output of ``tile_html.py``.
+by looking at the HTML output of ``html_tilegrid.py``.
 
 Tiles have a name, for example *MIB_R13C6* and a type, for example **MIB_DSP2**.
 The name also encodes a position, in this case row 13, column 6. Multiple tiles may be
