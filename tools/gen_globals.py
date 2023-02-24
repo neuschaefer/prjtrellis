@@ -159,7 +159,7 @@ def main(args):
     globals_json["lr-conns"] = {
         "lr1" : {
             "row" : center_map[chip_size][0],
-            "row-span" : row_spans[chip_size]
+            #"row-span" : row_spans[chip_size]
         }
     }
 
