@@ -17,7 +17,7 @@ resources = [
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-640UHC" ],
+            "devices": [ ], #"LCMXO2-640UHC" ],
             "url": "https://www.latticesemi.com/view_document?document_id=39438",
         },
         {
@@ -27,33 +27,33 @@ resources = [
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-1200UHC" ],
+            "devices": [ ], #"LCMXO2-1200UHC" ],
             "url": "https://www.latticesemi.com/view_document?document_id=42567",
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-2000HC", "LCMXO2-2000HE", "LCMXO2-2000ZE" ],
+            "devices": [ "LCMXO2-2000HC", "LCMXO2-2000ZE", ], # "LCMXO2-2000HE" ],
             "url": "https://www.latticesemi.com/view_document?document_id=42568",
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-2000UHC", "LCMXO2-2000UHE" ],
+            "devices": [ ], #"LCMXO2-2000UHC", "LCMXO2-2000UHE" ],
             "url": "https://www.latticesemi.com/view_document?document_id=42570",
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-4000HC", "LCMXO2-4000HE", "LCMXO2-4000ZE" ],
+            "devices": [ "LCMXO2-4000HC", "LCMXO2-4000ZE", ], # "LCMXO2-4000HE" ],
             "url": "https://www.latticesemi.com/view_document?document_id=42571",
         },
         {
             "family": "MachXO2",
-            "devices": [ "LCMXO2-7000HC", "LCMXO2-7000HE", "LCMXO2-7000ZE" ],
+            "devices": [ "LCMXO2-7000HC", "LCMXO2-7000ZE", ], #"LCMXO2-7000HE" ],
             "url": "https://www.latticesemi.com/view_document?document_id=42572",
         },
 ]
 
 def fetch(url):
-    url = 'https://web.archive.org/' + url
+    #url = 'https://web.archive.org/' + url
     r = requests.get(url, headers={'user-agent': 'Mozilla/5.0'})
     assert r.status_code == 200
     return r.text

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# Generate globals.json for a MachXO2 device
 import pytrellis
 import database
 import itertools
@@ -21,8 +23,18 @@ center_map = {
 }
 
 row_spans = {
+    # 256HC
+    (7, 9): (0, 0), # wrong
+    # 640HC
+    (8, 17): (0, 0), # wrong
     # 1200HC
     (12, 21): (5, 5),
+    # 2000HC
+    (15, 25): (0, 0), # wrong
+    # 4000HC
+    (22, 31): (0, 0), # wrong
+    # 7000HC
+    (26, 40): (0, 0), # wrong
 }
 
 start_stride = {
@@ -159,7 +171,7 @@ def main(args):
     globals_json["lr-conns"] = {
         "lr1" : {
             "row" : center_map[chip_size][0],
-            #"row-span" : row_spans[chip_size]
+            "row-span" : row_spans[chip_size]
         }
     }
 
